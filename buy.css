@@ -37,7 +37,7 @@ h1, h2, h3 {
 
 /* Header Styles */
 header {
-    background-image: url(/Task1/images/nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-image: url(./images/nasa-Q1p7bh3SHj8-unsplash.jpg);
     background-position: center;
     background-size: cover;
     color: #fff;
