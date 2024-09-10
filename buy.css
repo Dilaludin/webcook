@@ -1,0 +1,239 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+  
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a {
+    text-decoration: none;
+    color:#28a745;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.logo a:hover{
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-image: url(/Task1/images/nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li {
+    display: inline;
+}
+
+header .hero {
+    padding: 60px 0;
+}
+
+header .hero h1 {
+    font-size: 58px;
+    margin-bottom: 10px;
+}
+
+header .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+header .btn {
+    
+    background-color:#00563B;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+header .btn:hover {
+    background-color: #e0a800;
+}
+
+/* Product Section Styles */
+.product-section {
+    padding: 40px;
+    text-align: center;
+    background-color:#00563B;
+}
+
+.product-section h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: white;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin: 20px 0 10px;
+    font-size: 24px;
+}
+
+.product-card p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:white;
+    margin-bottom: 30px;
+}
+
+.product-card .btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+}
+
+.product-card .btn:hover {
+    background-color: #218838;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.footer-links {
+    margin: 20px 0;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-socials {
+    margin: 20px 0;
+}
+
+.social-icon {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-links ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-socials {
+        display: flex;
+        justify-content: center;
+    }
+}
